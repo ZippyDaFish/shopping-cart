@@ -8,8 +8,11 @@ const RouteSwitch = () => {
     return (
         <BrowserRouter>
             <Routes>
-                <Route path='/'/>
+                <Route path='/' element={<App />}/>
+                <Route path='/homepage' element={<Homepage/>}/>
             </Routes>
         </BrowserRouter>
-    )
-}
+    );
+};
+
+export default RouteSwitch;
