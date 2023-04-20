@@ -2,14 +2,14 @@ import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import App from './App.js'
-import Homepage from './homepage.js';
+import Shop from './Shop.js'
 
 const RouteSwitch = () => {
     return (
         <BrowserRouter>
             <Routes>
                 <Route path='/' element={<App />}/>
-                <Route path='/homepage' element={<Homepage/>}/>
+                <Route path='/shop' element={<Shop/>}/>
             </Routes>
         </BrowserRouter>
     );
