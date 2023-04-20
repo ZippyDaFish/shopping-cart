@@ -5,6 +5,8 @@
     justify-content: space-around;
     align-items: center;
 
+    height: 15vh;
+
     background-color: var(--dark-blue);
 }
 
@@ -17,10 +19,12 @@
 
 .title {
     font-weight: bold;
-    font-size: 300%;
+    font-size: 400%;
+    color: var(--light-green);
 }
 
 .nav-link {
     font-weight: bold;
-    font-size: 150%;
+    font-size: 200%;
+    color: white;
 }

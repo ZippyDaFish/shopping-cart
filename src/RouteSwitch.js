@@ -4,6 +4,8 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import App from './App.js'
 import Shop from './Shop.js'
 
+import './styles/overview.css'
+
 const RouteSwitch = () => {
     return (
         <BrowserRouter>
