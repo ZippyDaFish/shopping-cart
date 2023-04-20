@@ -4,10 +4,12 @@ import '../styles/TitleBar.css'
 const TitleBar = () => {
     return(
         <div className='title-bar-container'>
-            <h1>False-ify</h1>
-            <h3>Home</h3>
-            <h3>Shop</h3>
-            <h3>Contact</h3>
+            <p className='title'>False-ify</p>
+            <div className='title-nav-container'>
+                <p className='nav-link'>Home</p>
+                <p className='nav-link'>Shop</p>
+                <p className='nav-link'>Contact</p>
+            </div>
         </div>
     );
 };
