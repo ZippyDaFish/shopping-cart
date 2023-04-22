@@ -1,0 +1,42 @@
+@import url('./palette.css');
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    height: 85vh;
+}
+
+.tagline-container {
+    padding: 5%;
+    width: 40%;
+    background-color: var(--light-blue);
+    clip-path: polygon(10% 10%, 100% 10%, 70% 90%, 10% 90%);
+}
+.tagline {
+    width: 50%;
+    margin: 10%;
+    font-size: 300%;
+    font-weight: bold;
+    color: white;
+}
+.tagline-container > a {
+    padding: 3%;
+    margin: 10%;
+    text-decoration: none;
+    font-size: 200%;
+    font-weight: bold;
+    color: var(--light-green);
+    background-color: var(--dark-blue);
+    border-radius: 30px;
+}
+
+.image-container {
+    padding: 5%;
+    width: 40%;
+    background-color: var(--light-green);
+    clip-path: polygon(30% 10%, 90% 10%, 90% 90%, 0% 90%);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
