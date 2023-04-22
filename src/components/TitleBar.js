@@ -4,11 +4,11 @@ import '../styles/TitleBar.css'
 const TitleBar = () => {
     return(
         <div className='title-bar-container'>
-            <p className='title'>False-ify</p>
+            <a href='/' className='title'>False-ify</a>
             <div className='title-nav-container'>
-                <p className='nav-link'>Home</p>
-                <p className='nav-link'>Shop</p>
-                <p className='nav-link'>Contact</p>
+                <a href='/' className='nav-link'>Home</a>
+                <a href='/shop' className='nav-link'>Shop</a>
+                <a href='/contact' className='nav-link'>Contact</a>
             </div>
         </div>
     );
