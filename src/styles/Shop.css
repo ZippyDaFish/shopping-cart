@@ -1,0 +1,5 @@
+@import url('./palette.css');
+
+.grid-container {
+    display: grid;
+}

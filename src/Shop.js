@@ -1,11 +1,16 @@
-import React, { Component } from 'react';
+import React, { Component, PureComponent } from 'react';
 import TitleBar from './components/TitleBar.js'
+import ProductCard from './components/ProductCard.js';
 
 const Shop = () => {
     return(
         <div>
             <TitleBar/>
-            <h1>Hello Shop</h1>
+            <div>
+                <div className='grid-container'>
+                    <ProductCard/>
+                </div>
+            </div>
         </div>
     );
 };
