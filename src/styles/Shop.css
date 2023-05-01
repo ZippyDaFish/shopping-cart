@@ -1,11 +1,14 @@
 @import url('./palette.css');
 
 .content-container {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 50vh);
+    gap: 5%;
 }

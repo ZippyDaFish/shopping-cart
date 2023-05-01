@@ -4,10 +4,14 @@ import '../styles/ProductCard.css'
 const ProductCard = () => {
     return(
         <div className="product-card">
-            <img></img>
-            <p>Name</p>
-            <p>Price</p>
-            <button>Add to Cart</button>
+            <div className="card-img-container">
+                <img></img>
+            </div>
+            <div className="card-info-container">
+                <p>Name</p>
+                <p>Price</p>
+                <button>Add to Cart</button>
+            </div>
         </div>
     );
 };

@@ -2,4 +2,17 @@
 
 .product-card {
     background-color: var(--light-green);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card-img-container {
+    height: 50%;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+.card-info-container {
+    height: 50%;
 }
