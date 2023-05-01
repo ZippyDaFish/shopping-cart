@@ -1,0 +1,5 @@
+@import url('./palette.css');
+
+.product-card {
+    background-color: var(--light-green);
+}

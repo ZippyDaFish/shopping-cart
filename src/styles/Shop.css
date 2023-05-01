@@ -1,5 +1,11 @@
 @import url('./palette.css');
 
+.content-container {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
 .grid-container {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
