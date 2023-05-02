@@ -9,6 +9,6 @@
 .grid-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 50vh);
+    grid-template-rows: repeat(4, 60vh);
     gap: 5%;
 }
