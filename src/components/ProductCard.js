@@ -10,8 +10,8 @@ const ProductCard = (props) => {
             <div className="card-info-container">
                 <p className="card-name">{props.name}</p>
                 <p className="card-price">{props.price}</p>
-                <button className="card-add-to-cart">Add to Cart</button>
             </div>
+            <button className="card-add-to-cart">Add to Cart</button>
         </div>
     );
 };
