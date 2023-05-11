@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/TitleBar.css'
+import '../styles/TitleBar.css';
 
 import cartIcon from '../images/shopping-cart-icon.png';
 

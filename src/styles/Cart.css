@@ -1,0 +1,8 @@
+.cart-container {
+    position: sticky;
+    top: 0;
+    height: 100%;
+
+    background-color: white;
+    border: solid 10px black;
+}
