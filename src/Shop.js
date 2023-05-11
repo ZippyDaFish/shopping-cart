@@ -1,6 +1,5 @@
 import React, { Component, PureComponent } from 'react';
 import TitleBar from './components/TitleBar.js'
-import Cart from './components/Cart.js';
 import ProductCard from './components/ProductCard.js';
 
 import './styles/Shop.css';
@@ -16,7 +15,6 @@ const Shop = () => {
     return(
         <div>
             <TitleBar/>
-            <Cart/>
             <div className='content-container'>
                 <div className='grid-container'>
                     <ProductCard img={SailboatFuel} name="Sailboat Fuel" price="$2.40"/>

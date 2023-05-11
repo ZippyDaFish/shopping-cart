@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {Component} from 'react';
 import '../styles/TitleBar.css';
 
+import Cart from './Cart.js';
 import cartIcon from '../images/shopping-cart-icon.png';
 
 const TitleBar = () => {
@@ -13,6 +14,7 @@ const TitleBar = () => {
                 <a href='/contact' className='nav-link'>Contact</a>
                 <button className='open-cart-btn'><img className='cart-icon' src={cartIcon}/></button>
             </div>
+            <Cart/>
         </div>
     );
 };

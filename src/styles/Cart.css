@@ -1,8 +1,11 @@
 .cart-container {
-    position: sticky;
-    top: 0;
-    height: 100%;
+    position: absolute;
+    top: 100%;
+    right: 0%;
+    width: 30%;
+    height: 85vh;
 
     background-color: white;
-    border: solid 10px black;
+    border-left: solid 10px black;
+    border-right: solid 10px black;
 }
