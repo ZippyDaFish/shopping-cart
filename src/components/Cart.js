@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Cart.css';
 
-const Cart = () => {
+const Cart = (props) => {
     return(
-        <div className='cart-container'>
+        <div className='cart-container' style={{display: props.displayType}}>
 
         </div>
     );
