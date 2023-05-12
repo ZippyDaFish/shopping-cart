@@ -3,7 +3,7 @@ import '../styles/ProductCard.css'
 
 const ProductCard = (props) => {
     const HandleClick = () => {
-        console.log(props)
+
     }
 
     return(
